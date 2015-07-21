@@ -53,25 +53,5 @@ def main():
     print(" Speed: {:.2f}/s".format(total_count / total_time))
 
 
-def test():
-    puzzle_files = [
-        'puzzles\\all.csv',
-        'puzzles\\all.txt',
-        'puzzles\\msk_009.txt',
-        'puzzles\\shortlist.csv',
-        'puzzles\\single.csv',
-        'puzzles\\subig20.txt',
-        'puzzles\\test.csv',
-        'puzzles\\top91.txt',
-        'puzzles\\top95.txt',
-        'puzzles\\top99.txt',
-        'puzzles\\top100.txt',
-        'puzzles\\top870.txt',
-        'puzzles\\top2365.txt',
-    ]
-    target = "puzzles\\combined.txt"
-    tools.combine_files(puzzle_files, target)
-
-
 if __name__ == "__main__":
     main()
